@@ -7,15 +7,15 @@ To write a program to find the LU Decomposition of a matrix.
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm
+## Algorithm:
 
-1.Initialize Inputs: Read the given square matrix A and the constant vector B.
+STEP 1: Initialize Inputs: Read the given square matrix A and the constant vector B.
 
-2.Decompose Matrix: Factorize matrix A into a lower triangular matrix (L) and an upper triangular matrix (U) so that A = L * U.
+STEP 2: Decompose Matrix: Factorize matrix A into a lower triangular matrix (L) and an upper triangular matrix (U) so that A = L * U.
 
-3.orward Substitution: Solve the equation L * Y = B to find the temporary vector Y.
+STEP 3: forward Substitution: Solve the equation L * Y = B to find the temporary vector Y.
 
-4.Backward Substitution: Using that vector Y, solve the equation U * X = Y to find your final solution vector X. Print the result.
+STEP 4: Backward Substitution: Using that vector Y, solve the equation U * X = Y to find your final solution vector X. Print the result.
 
 ## Program:
 ```
